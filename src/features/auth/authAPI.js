@@ -1,5 +1,6 @@
 import { login, logout, socialLogin } from "./authSlice.js";
 import { setCartItem, getCartCount } from "../cart/cartSlice.js"
+import axios from 'axios';
 // features
 import { parseJwt } from "features/auth/parseJwt";
 // utils
